@@ -1,0 +1,145 @@
+﻿@using StoreOnline.Pages
+@using StoreOnline.Services
+@model MasterModel
+
+
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Cosmetics Store</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="~/css/main.css" />
+
+</head>
+<body class="is-preload homepage">
+    <div id="page-wrapper">
+
+        <!-- Header -->
+        <div id="header-wrapper">
+            <header id="header" class="container">
+
+                <!-- Logo -->
+                <div id="logo">
+                    <h1><a href="/Index"></a>Cosmetics Store</h1>
+                </div>
+
+                <!-- Nav -->
+                <nav id="nav">
+                    <ul>
+                        <li><a href="/Index">Главная</a></li>
+                        <li>
+                            <a href="/Catalog">Каталог</a>
+                            <ul>
+                                @foreach (CategoryInfo category in Model.Categories)
+                                {
+                                    <li><a href="Catalog?category=@category.Alias">@category.Title</a></li>
+                                }
+                            </ul>
+                        </li>
+                        <li>
+                            <form id="search_engine" method="get" action="/Search" accept-charset="UTF-8">
+                                <div>
+                                    <input class="searchfield" name="query" type="text" id="keywords" placeholder="Что ищем?" />
+                                </div>
+                                <div>
+                                    <input class="searchbutton" type="submit" value="Поиск" />
+                                </div>
+                            </form>
+                        </li>
+
+                    </ul>
+                    
+                </nav>
+                
+            </header>
+        </div>
+
+        <div id="main">
+
+            @RenderBody()
+
+        </div>
+
+        <!-- Footer -->
+        <div id="footer-wrapper">
+            <footer id="footer" class="container">
+                <div class="row">
+                    <div class="col-3 col-6-medium col-12-small">
+
+                        <!-- Links -->
+                        <section class="widget links">
+                            <h3>Random Stuff</h3>
+                            <ul class="style2">
+                                <li><a href="#">Etiam feugiat condimentum</a></li>
+                                <li><a href="#">Aliquam imperdiet suscipit odio</a></li>
+                            </ul>
+                        </section>
+
+                    </div>
+                    <div class="col-3 col-6-medium col-12-small">
+
+                        <!-- Links -->
+                        <section class="widget links">
+                            <h3>Random Stuff</h3>
+                            <ul class="style2">
+                                <li><a href="#">Etiam feugiat condimentum</a></li>
+                                <li><a href="#">Aliquam imperdiet suscipit odio</a></li>
+                            </ul>
+                        </section>
+
+                    </div>
+                    <div class="col-3 col-6-medium col-12-small">
+
+                        <!-- Links -->
+                        <section class="widget links">
+                            <h3>Random Stuff</h3>
+                            <ul class="style2">
+                                <li><a href="#">Etiam feugiat condimentum</a></li>
+                                <li><a href="#">Aliquam imperdiet suscipit odio</a></li>
+                            </ul>
+                        </section>
+
+                    </div>
+                    <div class="col-3 col-6-medium col-12-small">
+
+                        <!-- Contact -->
+                        <section class="widget contact last">
+                            <h3>Contact Us</h3>
+                            <ul>
+                                <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+                                <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+                                <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+                                <li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+                                <li><a href="#" class="icon brands fa-pinterest"><span class="label">Pinterest</span></a></li>
+                            </ul>
+                        </section>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div id="copyright">
+                            <ul class="menu">
+                                <li>&copy; Untitled. All rights reserved</li>
+                                <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+    </div>
+
+    <!-- Scripts -->
+
+    <script src="~/js/jquery.min.js"></script>
+    <script src="~/js/jquery.dropotron.min.js"></script>
+    <script src="~/js/browser.min.js"></script>
+    <script src="~/js/breakpoints.min.js"></script>
+    <script src="~/js/util.js"></script>
+    <script src="~/js/main.js"></script>
+
+</body>
+</html>

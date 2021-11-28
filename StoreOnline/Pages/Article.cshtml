@@ -1,0 +1,84 @@
+﻿@page
+@model StoreOnline.Pages.ArticleModel
+@using StoreOnline.Services
+@{
+    Layout = "~/Pages/_MasterPage.cshtml";
+}
+
+<div class="product">
+    <div class="product-card">
+        <p><img src="~/img/@(Model.Article.Id).jpg" /></p>
+        <div class="description">
+            <h2>@Model.Article.Title</h2>
+            <p>@Model.Article.Announce</p>
+            <div class="price">@Model.inStock</div>
+            <p class="price">@Model.Article.Cost ₽</p>
+            <p>Состав: @Model.Article.Ingredients</p>
+            <a href="" class="button">В корзину</a>
+        </div>
+    </div>
+    <div class="views-date">Просмотров: @Model.Article.ViewCount</div>
+    <div class="views-date">@Model.Article.PublicationDate.ToString("dd.MM.yyyy")</div>
+</div>
+
+<h1>Отзывы</h1>
+
+@if (Model.Article.Comments.Count == 0)
+{<p class="notfound">Еще нет ни одного отзыва</p>}
+
+<div class="clear">
+    @foreach (CommentInfo comment in Model.Article.Comments)
+    {
+        <div>
+            <b>@comment.Author</b>
+            <p>@comment.Text</p>
+            <p>@comment.Date.ToString("dd.MM.yyyy HH:mm:ss")</p>
+
+        </div>
+    }
+</div>
+
+<h1>Оставьте отзыв</h1>
+
+<form action="/AddComment" method="get" id="frmComment">
+    @if (Model.Error != null)
+    {
+        <div class="error">@Model.Error</div>
+    }
+
+    <div class="username"><p>Пользователь: </p><input type="text" name="user" /></div>
+    <textarea cols="80" rows="5" name="text"></textarea>
+    <div class="error hidden" id="errText">Введите текст отзыва</div>
+    <div class="error hidden" id="errUser">Введите имя пользователя</div>
+    <input type="hidden" name="id" value="@(Model.Article.Id)" />
+    <input type="submit" value="Добавить отзыв" />
+</form>
+
+
+<script>
+
+    function checkForm(e) {
+        let elText = document.querySelector('[name="text"]')
+        let elUser = document.querySelector('[name="user"]')
+        let elErrText = document.querySelector('#errText');
+        let elErrUser = document.querySelector('#errUser');
+        if (!elText.value) {
+            elErrText.classList.remove('hidden');
+            e.preventDefault();
+        }
+        else {
+            elErrText.classList.add('hidden');
+        }
+
+        if (!elUser.value) {
+            elErrUser.classList.remove('hidden');
+            e.preventDefault();
+        }
+        else {
+            elErrUser.classList.add('hidden');
+        }
+    }
+
+    document.querySelector('#frmComment').addEventListener('submit', checkForm);
+
+</script>

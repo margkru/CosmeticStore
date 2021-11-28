@@ -1,0 +1,40 @@
+﻿@page
+@using StoreOnline.Pages
+@using StoreOnline.Services
+@{
+    Layout = "~/Pages/_MasterPage.cshtml";
+}
+@model IndexModel
+
+    
+    <h1>Новинки недели</h1>
+
+    <div id="features-wrapper">
+        <div class="container">
+            <div class="row">
+                @foreach (ProductInfo product in Model.Products.Take(3))
+                {
+
+                    <div class="col-4 col-12-medium products">
+
+                        <!-- Box -->
+                        <section class="box feature">
+                            <a href="/Article?id=@product.Id"><img src="~/img/@(product.Id).jpg" width="240" height="160" /></a>
+                            <div class="inner">
+                                <header>
+                                    <h2><a href="/Article?id=@product.Id">@product.Title</a></h2>
+                                </header>
+                                <p>@product.Announce</p>
+                                <div class="price">@product.Cost ₽</div>
+                            </div>
+                        </section>
+
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+
+
+
+

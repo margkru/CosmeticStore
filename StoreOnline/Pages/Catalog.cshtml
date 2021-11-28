@@ -1,0 +1,34 @@
+﻿@page
+@using StoreOnline.Pages
+@using StoreOnline.Services
+@{
+    Layout = "~/Pages/_MasterPage.cshtml";
+}
+@model CatalogModel
+
+<div class="categories">
+    @foreach (CategoryInfo category in Model.Categories)
+    {
+        <ul><a href="Catalog?category=@category.Alias">@category.Title</a></ul>
+    }
+</div>
+
+<div class="catalog">
+    @foreach (ProductInfo product in Model.Products)
+    {
+        <div class="products" href="/Article?id=@product.Id">
+
+            <p><img src="~/img/@(product.Id).jpg" width="240" height="160" /></p>
+            <div class="product-list">
+                <div class="inner">
+                    <header>
+                        <h2><a href="/Article?id=@product.Id">@product.Title</a></h2>
+                    </header>
+                    <p>@product.Announce</p>
+                    <div class="price">@product.Cost ₽</div>
+                    <a href="" class="button">В корзину</a>
+                </div>                
+            </div>
+        </div>
+    }
+</div>

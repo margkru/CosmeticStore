@@ -1,0 +1,73 @@
+C:\Users\krule\source\repos\StoreOnline\StoreOnline\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\krule\source\repos\StoreOnline\StoreOnline\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\krule\source\repos\StoreOnline\StoreOnline\bin\Debug\netcoreapp3.1\StoreOnline.exe
+C:\Users\krule\source\repos\StoreOnline\StoreOnline\bin\Debug\netcoreapp3.1\StoreOnline.deps.json
+C:\Users\krule\source\repos\StoreOnline\StoreOnline\bin\Debug\netcoreapp3.1\StoreOnline.runtimeconfig.json
+C:\Users\krule\source\repos\StoreOnline\StoreOnline\bin\Debug\netcoreapp3.1\StoreOnline.runtimeconfig.dev.json
+C:\Users\krule\source\repos\StoreOnline\StoreOnline\bin\Debug\netcoreapp3.1\StoreOnline.dll
+C:\Users\krule\source\repos\StoreOnline\StoreOnline\bin\Debug\netcoreapp3.1\StoreOnline.pdb
+C:\Users\krule\source\repos\StoreOnline\StoreOnline\bin\Debug\netcoreapp3.1\StoreOnline.Views.dll
+C:\Users\krule\source\repos\StoreOnline\StoreOnline\bin\Debug\netcoreapp3.1\StoreOnline.Views.pdb
+C:\Users\krule\source\repos\StoreOnline\StoreOnline\obj\Debug\netcoreapp3.1\StoreOnline.csprojAssemblyReference.cache
+C:\Users\krule\source\repos\StoreOnline\StoreOnline\obj\Debug\netcoreapp3.1\StoreOnline.AssemblyInfoInputs.cache
+C:\Users\krule\source\repos\StoreOnline\StoreOnline\obj\Debug\netcoreapp3.1\StoreOnline.AssemblyInfo.cs
+C:\Users\krule\source\repos\StoreOnline\StoreOnline\obj\Debug\netcoreapp3.1\StoreOnline.csproj.CoreCompileInputs.cache
+C:\Users\krule\source\repos\StoreOnline\StoreOnline\obj\Debug\netcoreapp3.1\StoreOnline.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\krule\source\repos\StoreOnline\StoreOnline\obj\Debug\netcoreapp3.1\StoreOnline.RazorAssemblyInfo.cache
+C:\Users\krule\source\repos\StoreOnline\StoreOnline\obj\Debug\netcoreapp3.1\StoreOnline.RazorAssemblyInfo.cs
+C:\Users\krule\source\repos\StoreOnline\StoreOnline\obj\Debug\netcoreapp3.1\staticwebassets\StoreOnline.StaticWebAssets.Manifest.cache
+C:\Users\krule\source\repos\StoreOnline\StoreOnline\obj\Debug\netcoreapp3.1\staticwebassets\StoreOnline.StaticWebAssets.xml
+C:\Users\krule\source\repos\StoreOnline\StoreOnline\obj\Debug\netcoreapp3.1\scopedcss\bundle\StoreOnline.styles.css
+C:\Users\krule\source\repos\StoreOnline\StoreOnline\obj\Debug\netcoreapp3.1\StoreOnline.TagHelpers.input.cache
+C:\Users\krule\source\repos\StoreOnline\StoreOnline\obj\Debug\netcoreapp3.1\StoreOnline.TagHelpers.output.cache
+C:\Users\krule\source\repos\StoreOnline\StoreOnline\obj\Debug\netcoreapp3.1\StoreOnline.RazorCoreGenerate.cache
+C:\Users\krule\source\repos\StoreOnline\StoreOnline\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+C:\Users\krule\source\repos\StoreOnline\StoreOnline\obj\Debug\netcoreapp3.1\StoreOnline.RazorTargetAssemblyInfo.cache
+C:\Users\krule\source\repos\StoreOnline\StoreOnline\obj\Debug\netcoreapp3.1\StoreOnline.RazorTargetAssemblyInfo.cs
+C:\Users\krule\source\repos\StoreOnline\StoreOnline\obj\Debug\netcoreapp3.1\StoreOnline.Views.pdb
+C:\Users\krule\source\repos\StoreOnline\StoreOnline\obj\Debug\netcoreapp3.1\StoreOnline.dll
+C:\Users\krule\source\repos\StoreOnline\StoreOnline\obj\Debug\netcoreapp3.1\StoreOnline.pdb
+C:\Users\krule\source\repos\StoreOnline\StoreOnline\obj\Debug\netcoreapp3.1\StoreOnline.genruntimeconfig.cache
+C:\Users\krule\source\repos\StoreOnline\StoreOnline\obj\Debug\netcoreapp3.1\StoreOnline.csproj.CopyComplete
+C:\Users\krule\source\repos\StoreOnline\StoreOnline\obj\Debug\netcoreapp3.1\Razor\Pages\Article.cshtml.g.cs
+C:\Users\krule\source\repos\StoreOnline\StoreOnline\obj\Debug\netcoreapp3.1\Razor\Pages\Search.cshtml.g.cs
+C:\Users\krule\source\repos\StoreOnline\StoreOnline\obj\Debug\netcoreapp3.1\Razor\Pages\_MasterPage.cshtml.g.cs
+C:\Users\krule\source\repos\StoreOnline\StoreOnline\obj\Debug\netcoreapp3.1\Razor\Pages\AddComment.cshtml.g.cs
+C:\Users\krule\source\repos\StoreOnline\StoreOnline\obj\Debug\netcoreapp3.1\Razor\Pages\Catalog.cshtml.g.cs
+C:\Users\krule\OneDrive\Рабочий стол\KrulevaMM\StoreOnline\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\krule\OneDrive\Рабочий стол\KrulevaMM\StoreOnline\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\krule\OneDrive\Рабочий стол\KrulevaMM\StoreOnline\bin\Debug\netcoreapp3.1\StoreOnline.exe
+C:\Users\krule\OneDrive\Рабочий стол\KrulevaMM\StoreOnline\bin\Debug\netcoreapp3.1\StoreOnline.deps.json
+C:\Users\krule\OneDrive\Рабочий стол\KrulevaMM\StoreOnline\bin\Debug\netcoreapp3.1\StoreOnline.runtimeconfig.json
+C:\Users\krule\OneDrive\Рабочий стол\KrulevaMM\StoreOnline\bin\Debug\netcoreapp3.1\StoreOnline.runtimeconfig.dev.json
+C:\Users\krule\OneDrive\Рабочий стол\KrulevaMM\StoreOnline\bin\Debug\netcoreapp3.1\StoreOnline.dll
+C:\Users\krule\OneDrive\Рабочий стол\KrulevaMM\StoreOnline\bin\Debug\netcoreapp3.1\StoreOnline.pdb
+C:\Users\krule\OneDrive\Рабочий стол\KrulevaMM\StoreOnline\bin\Debug\netcoreapp3.1\StoreOnline.Views.dll
+C:\Users\krule\OneDrive\Рабочий стол\KrulevaMM\StoreOnline\bin\Debug\netcoreapp3.1\StoreOnline.Views.pdb
+C:\Users\krule\OneDrive\Рабочий стол\KrulevaMM\StoreOnline\obj\Debug\netcoreapp3.1\StoreOnline.csproj.AssemblyReference.cache
+C:\Users\krule\OneDrive\Рабочий стол\KrulevaMM\StoreOnline\obj\Debug\netcoreapp3.1\StoreOnline.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\krule\OneDrive\Рабочий стол\KrulevaMM\StoreOnline\obj\Debug\netcoreapp3.1\StoreOnline.AssemblyInfoInputs.cache
+C:\Users\krule\OneDrive\Рабочий стол\KrulevaMM\StoreOnline\obj\Debug\netcoreapp3.1\StoreOnline.AssemblyInfo.cs
+C:\Users\krule\OneDrive\Рабочий стол\KrulevaMM\StoreOnline\obj\Debug\netcoreapp3.1\StoreOnline.csproj.CoreCompileInputs.cache
+C:\Users\krule\OneDrive\Рабочий стол\KrulevaMM\StoreOnline\obj\Debug\netcoreapp3.1\StoreOnline.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\krule\OneDrive\Рабочий стол\KrulevaMM\StoreOnline\obj\Debug\netcoreapp3.1\StoreOnline.RazorAssemblyInfo.cache
+C:\Users\krule\OneDrive\Рабочий стол\KrulevaMM\StoreOnline\obj\Debug\netcoreapp3.1\StoreOnline.RazorAssemblyInfo.cs
+C:\Users\krule\OneDrive\Рабочий стол\KrulevaMM\StoreOnline\obj\Debug\netcoreapp3.1\staticwebassets\StoreOnline.StaticWebAssets.Manifest.cache
+C:\Users\krule\OneDrive\Рабочий стол\KrulevaMM\StoreOnline\obj\Debug\netcoreapp3.1\staticwebassets\StoreOnline.StaticWebAssets.xml
+C:\Users\krule\OneDrive\Рабочий стол\KrulevaMM\StoreOnline\obj\Debug\netcoreapp3.1\scopedcss\bundle\StoreOnline.styles.css
+C:\Users\krule\OneDrive\Рабочий стол\KrulevaMM\StoreOnline\obj\Debug\netcoreapp3.1\StoreOnline.TagHelpers.input.cache
+C:\Users\krule\OneDrive\Рабочий стол\KrulevaMM\StoreOnline\obj\Debug\netcoreapp3.1\StoreOnline.TagHelpers.output.cache
+C:\Users\krule\OneDrive\Рабочий стол\KrulevaMM\StoreOnline\obj\Debug\netcoreapp3.1\StoreOnline.RazorCoreGenerate.cache
+C:\Users\krule\OneDrive\Рабочий стол\KrulevaMM\StoreOnline\obj\Debug\netcoreapp3.1\Razor\Pages\AddComment.cshtml.g.cs
+C:\Users\krule\OneDrive\Рабочий стол\KrulevaMM\StoreOnline\obj\Debug\netcoreapp3.1\Razor\Pages\Article.cshtml.g.cs
+C:\Users\krule\OneDrive\Рабочий стол\KrulevaMM\StoreOnline\obj\Debug\netcoreapp3.1\Razor\Pages\Catalog.cshtml.g.cs
+C:\Users\krule\OneDrive\Рабочий стол\KrulevaMM\StoreOnline\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+C:\Users\krule\OneDrive\Рабочий стол\KrulevaMM\StoreOnline\obj\Debug\netcoreapp3.1\Razor\Pages\Search.cshtml.g.cs
+C:\Users\krule\OneDrive\Рабочий стол\KrulevaMM\StoreOnline\obj\Debug\netcoreapp3.1\Razor\Pages\_MasterPage.cshtml.g.cs
+C:\Users\krule\OneDrive\Рабочий стол\KrulevaMM\StoreOnline\obj\Debug\netcoreapp3.1\StoreOnline.RazorTargetAssemblyInfo.cache
+C:\Users\krule\OneDrive\Рабочий стол\KrulevaMM\StoreOnline\obj\Debug\netcoreapp3.1\StoreOnline.RazorTargetAssemblyInfo.cs
+C:\Users\krule\OneDrive\Рабочий стол\KrulevaMM\StoreOnline\obj\Debug\netcoreapp3.1\StoreOnline.Views.pdb
+C:\Users\krule\OneDrive\Рабочий стол\KrulevaMM\StoreOnline\obj\Debug\netcoreapp3.1\StoreOnline.dll
+C:\Users\krule\OneDrive\Рабочий стол\KrulevaMM\StoreOnline\obj\Debug\netcoreapp3.1\StoreOnline.pdb
+C:\Users\krule\OneDrive\Рабочий стол\KrulevaMM\StoreOnline\obj\Debug\netcoreapp3.1\StoreOnline.genruntimeconfig.cache
+C:\Users\krule\OneDrive\Рабочий стол\KrulevaMM\StoreOnline\obj\Debug\netcoreapp3.1\StoreOnline.csproj.CopyComplete

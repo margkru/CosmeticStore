@@ -1,0 +1,30 @@
+﻿@page
+@using StoreOnline.Services
+@model StoreOnline.Pages.SearchModel
+@{
+    Layout = "~/Pages/_MasterPage.cshtml";
+}
+
+<h1>Результаты поиска</h1>
+
+@if(Model.Articles.Count == 0) { <p class="notfound">Ничего не найдено</p>}
+
+<div class="catalog">
+    @foreach (ProductInfo product in Model.Articles)
+    {
+        <div class="products">
+
+            <p ><img src="~/img/@(product.Id).jpg" width="240" height="160" /></p>
+            <div class="product-list">
+                <div class="inner">
+                    <header>
+                        <h2><a href="/Article?id=@product.Id">@product.Title</a></h2>
+                    </header>
+                    <p>@product.Announce</p>
+                    <div class="price">@product.Cost ₽</div>
+                    <a href="" class="button">В корзину</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>
